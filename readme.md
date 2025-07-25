@@ -20,6 +20,6 @@ There are no plans at this time to distribute this extension through the Chrome 
 
 Download the files in this repository, then load the sub-folder "ExperienceScanner" using the "Load unpacked" button in extension manager window. At this point, all that remains to do is to add your API key.
 
-This can be done by right clicking the extension if it's pinned to the top bar. Otherwise, open the extension dropdown from the top bar, and open the dropdown next to the extension name. In either case, you should see an item labeled "option". Clicking this opens the option pane where you can enter your api key. Make sure to press the save button after you've filled in the textbox. After that, everything should be ready!
+This can be done by right clicking the extension if it's pinned to the top bar. Otherwise, open the extension dropdown from the top bar, and open the dropdown next to the extension name. In either case, you should see an item labeled "option". Clicking this opens the option pane where you can enter your api key. Make sure to press the save button after you've filled in the textbox. The API key will be synced across all connected Chrome sessions. After that, everything should be ready!
 
 [Back to usage](#usage)
