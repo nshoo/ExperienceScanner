@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(RobotoMono.ttf);
+}
+
+body {
+    margin: 0;
+    background: #222;
+    color: #ddd;
+}
+
+.options {
+    background: #333;
+}
+
+.options .row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    padding: 0.4rem;
+    padding-left: 0.6rem;
+    font-size: 0.8rem;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 2rem;
+}
+
+.options .row .label {
+    font-weight: bold;
+}
+
+.options .row input[type="text"] {
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    border-radius: 0.1rem;
+    font-family: inherit;
+    background: #222;
+    color: inherit;
+    padding: 0.4rem;
+}
+
+.options .row input[type="button"] {
+    color: inherit;
+    background: rgb(51, 118, 253);
+    outline: none;
+    border: none;
+    border-radius: 0.1rem;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.options .row input[type="button"]:hover {
+    background: rgb(79, 138, 255);
+}

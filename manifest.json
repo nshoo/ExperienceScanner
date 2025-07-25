@@ -1,0 +1,16 @@
+{
+  "name": "Job Scanner",
+  "description": "An easy way to screen job descriptions for the right fit",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "scanner_extension.png"
+  },
+  "options_page": "options.html"
+}
